@@ -122,7 +122,7 @@ $product=product::select()->get();
                     <a style="text-decoration:none;color:black" class="me-2 ms-2" href="{{ route('user.login') }}">Đăng
                         Nhập</a><span></span>
                     @else
-                    <div class="nav-item dropdown">
+                    <div class="nav-item dropdown me-5">
                         <a class=" login-button dropdown-toggle" style="width:190px" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             <small><i class="fa-solid fa-user"></i> {{ Auth::guard('customer')->user()->name }}</small>
